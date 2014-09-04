@@ -1,0 +1,220 @@
+a,a:hover{
+	color:#FFF212;
+}
+*{
+	font-family: "Open Sans" !important;
+	padding:0;
+	margin:0;
+}
+
+body{
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	background-color:#121317;
+}
+
+/* ------------------ HEADER */
+header.rb-header{
+	position:fixed;
+	width:100%;
+	min-height:100px;
+	height:auto;
+}
+
+div.rb-center{
+	margin:auto;
+	width:1200px;
+}
+figure.logo{
+	background-image: url('/system/assets/img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+figure.rb-logo{
+	float:left;
+	width:127px;
+	height:63px;
+	margin-top:18px;
+}
+ul.rb-main-menu{
+	float:left;
+	width:auto;
+	margin :36px 0 0 15px;
+}
+
+ul.rb-main-menu > li{
+	float:left;
+	padding:0 10px 0 10px;
+	text-align: center;
+	list-style: none;
+	
+}
+ul.rb-main-menu > li > a{
+	text-decoration: none;
+	color:#727376;
+	font-size:12px;
+	letter-spacing: .09px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+ul.rb-main-menu > li > a.selected{
+	color:#FFF;
+}
+
+div.rb-user-box{
+	float:right;
+	width:482px;
+	height:68px;
+	margin-top:30px;
+}
+form.rb-user-login{
+	float:left;
+}
+
+form.rb-user-login > input{
+	float:left;
+	height:40px;
+	border:none;
+	outline: none;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+form.rb-user-login > input[type='text'],
+form.rb-user-login > input[type='password']{
+	margin-right:6px;
+	padding:0 10px 0 10px;
+	font-size: 13px;
+	width:175px;
+	background-color: #18191E;
+	color:#EEE;
+}
+
+form.rb-user-login > input[type='submit']{
+	width:120px;
+	border:none;
+	background-color:#D5005E;
+	color:#FFF;
+	font-size:11px;
+	letter-spacing: .09px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.rb-user-box > span{
+	float:right;
+	margin-right: 6px;
+	margin-top:10px;
+	font-size: 13px;
+	color:#CCC;
+	letter-spacing: .05px;
+}
+
+/* ------------------ END HEADER */
+
+/* ------------------ CADASTRO*/
+a.crg_back{
+	position:fixed;
+	top:30px;
+	left:0;
+	padding:15px;
+	text-align: center;
+	background-color:#18191E;
+	color:#CCC;
+	text-transform: uppercase;
+}
+div.crg-center-box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:320px;
+	height:360px;
+	margin-left:-155px;
+	margin-top:-250px;
+}
+
+div.crg-center-box figure.logo{
+	float:left;
+	width:100%;
+	height:63px;
+	margin:auto;
+}
+
+div.crg-alert{
+	position:relative;
+	float:left;
+	width:300px;
+	text-align: center;
+	margin:30px 0 0 10px;
+	background-color: #0D0F13;
+	padding:10px 0 10px 0;
+}
+div.crg-alert span{
+	color:#B8BAC0;
+	font-size:13px;
+	letter-spacing: .4px;
+}
+div.crg-alert i.skew{
+	position:absolute;
+	height:10px;
+	width:10px;
+	bottom:-4px;
+	left:50%;
+	margin-left:-5px;
+	background-color:#0D0F13;
+
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+form.crg-form{
+	float:left;
+	width:300px;
+	margin:10px 0 0 10px;
+}
+form.crg-form > input{
+	float:left;
+	width:100%;
+	height:44px;
+	font-size:13px;
+	border:none;
+	outline:none;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	transition: 0.5s ease-in-out;
+
+}
+form.crg-form > input[type='text'],
+form.crg-form > input[type='password']{
+	float:left;
+	width:100%;
+	height:44px;
+	border:none;
+	outline:none;
+	margin-top:6px;
+	padding-left:20px;
+	background-color:#18191E;
+	color:#FFF;
+}
+
+form.crg-form > input.borderNone{
+	border:1px solid transparent;
+}
+form.crg-form > input.borderRed{
+	border:1px solid #BB0043
+}
+
+form.crg-form > input[type='submit']{
+	margin-top:20px;
+	text-align: center;
+	background-color:#DD074A;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	color:#FFF;
+}
+
+/* ------------------ END CADASTRO*/

@@ -1,0 +1,18 @@
+
+<a class='crg_back' href="/#!/">Voltar para home</a>
+
+<div class='crg-center-box' data-ng-controller="RegisterCtrl">
+	<figure class='logo'>
+
+	</figure>
+	<div class='crg-alert'>
+		<span>{{messageAlert}}</span>
+		<i class='skew'></i>
+	</div>
+	<form class='crg-form' ng-submit='registerClient()'>
+		<input type='text' placeholder='Username' ng-model='user.username' class='{{usernameColorBorder}} borderNone' ng-trim="false"/>
+		<input type='text' placeholder='E-mail' ng-model='user.email' class='{{emailColorBorder}} borderNone' ng-trim="false"/>
+		<input type='password' placeholder='Senha' ng-model='user.password' class='{{passwordColorBorder}} borderNone' ng-trim="false"/>
+		<input type='submit' value='Cadastrar' />
+	</form>
+</div>
